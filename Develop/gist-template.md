@@ -1,21 +1,24 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+Regex Module
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Summary
+Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
+
+Extra 
+- [OR Operator](#or-operator)
+- [Flags](#flags)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
@@ -30,17 +33,9 @@ An anchor is case sensative and will represent either the beggining of a string 
 
 A quantifier will tell the amount of letter, number or charecters belonging in the desired output. for example if i have "win alot" with a quantifier of 3 i will recieve a match with either "win" or "alo."
 
-### OR Operator
-
-The OR operater is a logic understood by regex that will match with either a number or character. 
-
 ### Character Classes
 
 A character class is a specific class set by square brackets to recieve an individual return. example [5] will have to come back as a number. 
-
-### Flags
-
-A flag lookes through the entire string to find all applicable matches.
 
 ### Grouping and Capturing
 
@@ -55,6 +50,16 @@ these are charecters set into square brackets that are needing to be matched. It
 Greedy - matching with as many possible arrangements with given instruction as possible.
 
 Lazy Match - matching with as little arrangements when possible
+
+Extra
+
+### OR Operator
+
+The OR operater is a logic understood by regex that will match with either a number or character. 
+
+### Flags
+
+A flag lookes through the entire string to find all applicable matches.
 
 ### Boundaries
 
